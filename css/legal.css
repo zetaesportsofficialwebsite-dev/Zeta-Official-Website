@@ -1,0 +1,106 @@
+/* ── Legal Pages (Privacy Policy / Terms of Use) ── */
+.legal-hero {
+  padding: calc(var(--nav-h) + 6.4rem) var(--px) 4.8rem;
+  border-bottom: 1px solid var(--border);
+}
+.legal-hero__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 2rem;
+}
+.legal-hero__eyebrow::before {
+  content: '';
+  display: block;
+  width: 2.8rem;
+  height: 2px;
+  background: var(--gold);
+  flex-shrink: 0;
+}
+.legal-hero__title {
+  font-family: var(--font-heading);
+  font-size: clamp(3.2rem, 5vw, 5.2rem);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  color: var(--white);
+  margin-bottom: 1.6rem;
+}
+.legal-hero__updated {
+  font-size: 1.4rem;
+  color: var(--muted);
+}
+
+.legal-content {
+  max-width: 82rem;
+  margin: 0 auto;
+  padding: 6.4rem var(--px) 9.6rem;
+}
+.legal-content section + section {
+  margin-top: 4.8rem;
+}
+.legal-content h2 {
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  color: var(--white);
+  margin-bottom: 1.6rem;
+}
+.legal-content h3 {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--gold);
+  margin: 2.4rem 0 1rem;
+}
+.legal-content p {
+  color: var(--text);
+  margin-bottom: 1.4rem;
+}
+.legal-content p:last-child {
+  margin-bottom: 0;
+}
+.legal-content ul {
+  list-style: none;
+  margin: 0 0 1.4rem;
+  padding: 0;
+}
+.legal-content li {
+  position: relative;
+  color: var(--text);
+  padding-left: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+.legal-content li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--gold);
+}
+.legal-content a {
+  color: var(--gold);
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
+.legal-content a:hover {
+  color: var(--gold-dark);
+}
+.legal-content strong {
+  color: var(--white);
+}
+
+@media (max-width: 767px) {
+  .legal-hero {
+    padding: calc(var(--nav-h) + 4rem) var(--px) 3.6rem;
+  }
+  .legal-content {
+    padding: 4.8rem var(--px) 6.4rem;
+  }
+}

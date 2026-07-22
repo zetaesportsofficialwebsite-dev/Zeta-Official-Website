@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZeTa Esport — Kelab Sukan Elektronik ZeTa</title>
+  <meta name="description" content="Kelab Sukan Elektronik ZeTa (KSE ZeTa) — a Bintulu, Sarawak esports club organizing PUBG Mobile, MLBB, and E-Football tournaments for youth across the region.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+</head>
+<body>
+
+  <!-- Mobile navigation -->
+  <nav class="mobile-menu" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="committee.html">Committee</a>
+    <a href="events.html">Events</a>
+    <a href="about.html">About</a>
+    <a href="partners.html">Partners</a>
+  </nav>
+
+  <!-- Navbar -->
+  <header class="navbar" role="banner">
+    <a href="index.html" class="navbar__logo">Ze<span class="accent">T</span>a</a>
+    <nav class="navbar__nav" aria-label="Main navigation">
+      <a href="index.html" class="active">Home</a>
+      <a href="committee.html">Committee</a>
+      <a href="events.html">Events</a>
+      <a href="about.html">About</a>
+      <a href="partners.html">Partners</a>
+    </nav>
+    <div class="navbar__actions">
+      <button class="navbar__icon-btn" aria-label="Search">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+      </button>
+      <button type="button" class="btn btn-outline btn-sm js-contact-trigger">Join ZeTa</button>
+    </div>
+    <button class="navbar__burger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+
+    <!-- ====== HERO ====== -->
+    <section class="hero" aria-label="Hero">
+      <video class="hero__bg-video" src="assets/Download.mp4" autoplay muted loop playsinline></video>
+      <div class="hero__bg"></div>
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <p class="hero__eyebrow">Kelab Sukan Elektronik ZeTa</p>
+        <h1 class="hero__title">Bintulu's<br><span class="accent">Esports</span> Home</h1>
+        <p class="hero__tagline">We plan, run, and host PUBG Mobile, MLBB, and E-Football tournaments across Bintulu, Sarawak &mdash; for players, schools, and communities alike.</p>
+      </div>
+      <div class="hero__badge">
+        <span class="hero__badge-logo">Ze<span class="accent">T</span>a</span>
+      </div>
+    </section>
+
+    <!-- ====== TICKER ====== -->
+    <div class="ticker" role="marquee" aria-label="Club slogan">
+      <div class="ticker__track-wrap">
+        <div class="ticker__track">
+          <span class="ticker__item">Where Legends Compete <span class="ticker__accent">&amp; Where Champions Are Crowned</span></span>
+          <span class="ticker__sep" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 12 12" fill="currentColor"><polygon points="6,0 7.5,4.5 12,4.5 8.5,7 9.5,12 6,9 2.5,12 3.5,7 0,4.5 4.5,4.5"/></svg></span>
+          <span class="ticker__item">Where Legends Compete <span class="ticker__accent">&amp; Where Champions Are Crowned</span></span>
+          <span class="ticker__sep" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 12 12" fill="currentColor"><polygon points="6,0 7.5,4.5 12,4.5 8.5,7 9.5,12 6,9 2.5,12 3.5,7 0,4.5 4.5,4.5"/></svg></span>
+          <span class="ticker__item">Where Legends Compete <span class="ticker__accent">&amp; Where Champions Are Crowned</span></span>
+          <span class="ticker__sep" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 12 12" fill="currentColor"><polygon points="6,0 7.5,4.5 12,4.5 8.5,7 9.5,12 6,9 2.5,12 3.5,7 0,4.5 4.5,4.5"/></svg></span>
+          <span class="ticker__item">Where Legends Compete <span class="ticker__accent">&amp; Where Champions Are Crowned</span></span>
+          <span class="ticker__sep" aria-hidden="true"><svg width="10" height="10" viewBox="0 0 12 12" fill="currentColor"><polygon points="6,0 7.5,4.5 12,4.5 8.5,7 9.5,12 6,9 2.5,12 3.5,7 0,4.5 4.5,4.5"/></svg></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====== UPCOMING & RECENT EVENTS ====== -->
+    <section class="events-spotlight" aria-labelledby="events-spotlight-heading">
+      <div class="events-spotlight__header">
+        <h2 class="heading-lg reveal" id="events-spotlight-heading">Upcoming &amp; Recent Events</h2>
+        <a href="events.html" class="btn btn-outline btn-sm reveal" data-delay="0.1">View All</a>
+      </div>
+      <div class="events-spotlight__grid">
+
+        <a class="event-spot-card" href="events.html#event-ooohaaa-sarawak">
+          <div class="event-spot-card__bg" style="background-image: url('assets/poster-ooohaaa-sarawak.jpeg');"></div>
+          <div class="event-spot-card__gradient"></div>
+          <div class="event-spot-card__info">
+            <p class="event-spot-card__tag">PUBG Mobile &bull; Upcoming</p>
+            <p class="event-spot-card__title">OOO HAAA Sarawak</p>
+            <p class="event-spot-card__date">2 August 2026</p>
+          </div>
+        </a>
+
+        <a class="event-spot-card" href="events.html#event-pubg-2026-tournament">
+          <div class="event-spot-card__bg" style="background-image: url('assets/poster-pubg-2026-tournament.jpeg');"></div>
+          <div class="event-spot-card__gradient"></div>
+          <div class="event-spot-card__info">
+            <p class="event-spot-card__tag">PUBG Mobile &bull; 2026</p>
+            <p class="event-spot-card__title">Where Legends Compete Tournament</p>
+            <p class="event-spot-card__date">25 April 2026</p>
+          </div>
+        </a>
+
+        <a class="event-spot-card" href="events.html#event-hari-sukan-negara-challenge">
+          <div class="event-spot-card__bg" style="background-image: url('assets/poster-hari-sukan-negara-challenge.jpeg');"></div>
+          <div class="event-spot-card__gradient"></div>
+          <div class="event-spot-card__info">
+            <p class="event-spot-card__tag">MLBB &amp; PUBG &bull; 2025</p>
+            <p class="event-spot-card__title">Hari Sukan Negara Challenge</p>
+            <p class="event-spot-card__date">18&ndash;19 October 2025</p>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- ====== GAMES WE HOST ====== -->
+    <section class="games-section" aria-labelledby="games-heading">
+      <div class="games-section__inner">
+        <div>
+          <p class="games-section__eyebrow reveal">What We Run</p>
+          <h2 class="games-section__title reveal" id="games-heading" data-delay="0.1">Games We<br>Host</h2>
+          <p class="games-section__desc reveal" data-delay="0.2">From school festivals to nationwide-linked challenges, ZeTa plans, runs, and hosts esports tournaments across Bintulu. Able to expand soon.</p>
+          <a href="events.html" class="btn btn-gold reveal" data-delay="0.3">See Our Events</a>
+        </div>
+        <div class="games-section__cards reveal" data-delay="0.1">
+          <div class="game-card">
+            <div class="game-card__badge"><img class="game-card__badge-icon" src="assets/PUBG.png" alt="PUBG Mobile icon"></div>
+            <div>
+              <p class="game-card__name">PUBG Mobile</p>
+              <p class="game-card__note">Our most-run tournament category</p>
+            </div>
+          </div>
+          <div class="game-card">
+            <div class="game-card__badge"><img class="game-card__badge-icon" src="assets/MLBB icon.png" alt="Mobile Legends: Bang Bang icon"></div>
+            <div>
+              <p class="game-card__name">Mobile Legends: Bang Bang</p>
+              <p class="game-card__note">Regular MLBB brackets and challenges</p>
+            </div>
+          </div>
+          <div class="game-card">
+            <div class="game-card__badge"><img class="game-card__badge-icon" src="assets/E football icon.png" alt="E-Football icon"></div>
+            <div>
+              <p class="game-card__name">E-Football</p>
+              <p class="game-card__note">Community and school festival events</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== COMMITTEE SPOTLIGHT ====== -->
+    <section class="committee-spotlight" aria-labelledby="committee-spotlight-heading">
+      <div class="committee-spotlight__header">
+        <div>
+          <p class="label reveal">Kelab Sukan Elektronik ZeTa</p>
+          <h2 class="heading-lg reveal" id="committee-spotlight-heading" data-delay="0.1">Who Runs ZeTa</h2>
+        </div>
+        <a href="committee.html" class="btn btn-outline btn-sm reveal" data-delay="0.2">Meet the Committee</a>
+      </div>
+      <div class="committee-spotlight__grid">
+
+        <div class="leader-card reveal">
+          <span class="leader-card__ghost" aria-hidden="true">01</span>
+          <p class="leader-card__role">Presiden</p>
+          <p class="leader-card__name">Wan Harish Daniel<br>Bin Wan Hairolhizam</p>
+        </div>
+
+        <div class="leader-card reveal" data-delay="0.1">
+          <span class="leader-card__ghost" aria-hidden="true">02</span>
+          <p class="leader-card__role">Ketua Biro Pertandingan</p>
+          <p class="leader-card__name">Muhammad Nur<br>Syarifuddin Bin Ajma'in</p>
+        </div>
+
+        <div class="leader-card reveal" data-delay="0.2">
+          <span class="leader-card__ghost" aria-hidden="true">03</span>
+          <p class="leader-card__role">Ketua Biro Media &amp; Publisiti</p>
+          <p class="leader-card__name">Daniela Byney<br>Anak Robby</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====== FOLLOW OUR JOURNEY ====== -->
+    <section class="journey" aria-labelledby="journey-heading">
+      <div class="journey__header">
+        <h2 class="heading-lg reveal" id="journey-heading">Follow Our Journey</h2>
+        <button type="button" class="btn btn-outline btn-sm reveal js-contact-trigger" data-delay="0.1">Get In Touch</button>
+      </div>
+      <div class="journey__grid">
+
+        <a class="journey-card reveal" href="https://www.tiktok.com/@kse.zeta" target="_blank" rel="noopener">
+          <video class="journey-card__bg" src="assets/Naruto Jago Community vid.mp4" autoplay muted loop playsinline></video>
+          <div class="journey-card__info">
+            <p class="journey-card__platform">TikTok</p>
+            <p class="journey-card__handle">@kse.zeta</p>
+          </div>
+        </a>
+
+        <a class="journey-card reveal" data-delay="0.1" href="https://www.instagram.com/kse.zeta/" target="_blank" rel="noopener">
+          <div class="journey-card__bg" style="background-image: url('assets/HariSukanNegara.jpeg');"></div>
+          <div class="journey-card__info">
+            <p class="journey-card__platform">Instagram</p>
+            <p class="journey-card__handle">@kse.zeta</p>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__grid">
+      <div class="footer__col">
+        <p class="footer__col-title">ZeTa</p>
+        <nav class="footer__links" aria-label="About ZeTa">
+          <a href="about.html">Our Story</a>
+          <a href="committee.html">The Committee</a>
+          <a href="events.html">Our Events</a>
+          <a href="partners.html">Partners</a>
+        </nav>
+      </div>
+      <div class="footer__col">
+        <p class="footer__col-title">Esports</p>
+        <nav class="footer__links" aria-label="Esports">
+          <a href="events.html">All Events</a>
+          <a href="index.html#games-heading">Games We Host</a>
+        </nav>
+      </div>
+      <div class="footer__col">
+        <p class="footer__col-title">Get Involved</p>
+        <nav class="footer__links" aria-label="Get involved">
+          <button type="button" class="js-contact-trigger">Join the Club</button>
+          <a href="partners.html">Partner With Us</a>
+          <button type="button" class="js-contact-trigger">Contact Us</button>
+        </nav>
+      </div>
+      <div class="footer__col">
+        <p class="footer__col-title">Follow Us</p>
+        <nav class="footer__links" aria-label="Social media">
+          <a href="https://www.tiktok.com/@kse.zeta" target="_blank" rel="noopener">TikTok</a>
+          <a href="https://www.instagram.com/kse.zeta/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=kelabsukanelektronikzeta@gmail.com" target="_blank" rel="noopener">Email</a>
+        </nav>
+        <div class="footer__social">
+          <a href="https://www.tiktok.com/@kse.zeta" target="_blank" rel="noopener" aria-label="TikTok">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.27 8.27 0 0 0 4.83 1.56V6.79a4.84 4.84 0 0 1-1.06-.1z"/>
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/kse.zeta/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+          </a>
+          <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=kelabsukanelektronikzeta@gmail.com" target="_blank" rel="noopener" aria-label="Email">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copy">&copy; <span id="footer-year"></span> Kelab Sukan Elektronik ZeTa. All rights reserved.</p>
+      <nav class="footer__legal" aria-label="Legal">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-use.html">Terms of Use</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- ====== CONTACT MODAL ====== -->
+  <div class="contact-modal" id="contact-modal" aria-hidden="true">
+    <div class="contact-modal__backdrop" data-contact-close></div>
+    <div class="contact-modal__card" role="dialog" aria-modal="true" aria-labelledby="contact-modal-title">
+      <button type="button" class="contact-modal__close" aria-label="Close" data-contact-close>&times;</button>
+      <p class="label" id="contact-modal-title">Get In Touch</p>
+      <h3 class="contact-modal__heading">Reach ZeTa Through</h3>
+      <div class="contact-modal__options">
+        <a class="contact-modal__option" href="https://www.instagram.com/kse.zeta/" target="_blank" rel="noopener">
+          <span class="contact-modal__option-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </span>
+          <span class="contact-modal__option-label">Instagram</span>
+        </a>
+        <a class="contact-modal__option" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=kelabsukanelektronikzeta@gmail.com" target="_blank" rel="noopener">
+          <span class="contact-modal__option-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+          </span>
+          <span class="contact-modal__option-label">Gmail</span>
+        </a>
+        <a class="contact-modal__option" href="https://www.tiktok.com/@kse.zeta" target="_blank" rel="noopener">
+          <span class="contact-modal__option-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.27 8.27 0 0 0 4.83 1.56V6.79a4.84 4.84 0 0 1-1.06-.1z"/></svg>
+          </span>
+          <span class="contact-modal__option-label">TikTok</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+[build]
+  command = "mkdir -p dist && rsync -a --exclude 'Clubs Background' --exclude 'reference' --exclude 'temp-compare' --exclude 'dist' --exclude '.git' --exclude 'netlify.toml' --exclude '.gitignore' --exclude 'CLAUDE.md' --exclude 'README.md' ./ dist/"
+  publish = "dist"

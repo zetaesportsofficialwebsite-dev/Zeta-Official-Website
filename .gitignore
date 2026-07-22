@@ -1,0 +1,4 @@
+temp-compare/
+dist/
+node_modules/
+.netlify/
